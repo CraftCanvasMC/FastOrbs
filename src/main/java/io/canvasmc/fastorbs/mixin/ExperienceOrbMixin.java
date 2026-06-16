@@ -135,7 +135,7 @@ public abstract class ExperienceOrbMixin extends Entity {
                 ExperienceOrb orb :
                 this.level().getEntities(EntityTypeTest.forClass(ExperienceOrb.class), this.getBoundingBox().inflate(0.9), this::canMerge)
             ) {
-                // Canvas end - fast orbs
+        // Canvas end - fast orbs
                 this.merge(orb);
             }
         }
