@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fastorbs",
+  "version": "${version}",
+  "name": "FastOrbs",
+  "description": "Faster alternative to XP orb merging",
+  "authors": [
+    "Dueris"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.canvasmc.fastorbs.Fastorbs"
+    ]
+  },
+  "mixins": [
+    "fastorbs.mixins.json"
+  ]
+}
